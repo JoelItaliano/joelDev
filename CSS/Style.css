@@ -6,14 +6,15 @@ body {
     grid-template-rows: 0.5fr 1fr auto;
     height: 100vh;
     margin: 0;
+    padding: 5px;      
 }
 header {
     background: url('../Img/Fondo-de-encabezado3.jpg') no-repeat center center / cover;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;    
     text-align: center;
     display: grid;
     grid-template-rows: auto 1fr;
+    border-radius: 20px 20px 0 0
 }
 
 .encabezado {
@@ -21,7 +22,9 @@ header {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #FFFFFF; /* Línea debajo de la sección */
+    padding-top: 5px;
     padding-bottom: 10px; /* Espacio entre el contenido y la línea */    
 }
 
@@ -58,8 +61,7 @@ nav a {
 }
 
 .presentacion-titulo {
-    display: flex;
-    margin-top: -12%; 
+    display: flex; 
     justify-content: center;   
 }
 
@@ -72,12 +74,11 @@ nav a {
 }
 
 main {
-    
     padding: 2rem;
 }
 
-footer {
-    
+footer {    
     padding: 1rem;
     text-align: center;
+
 }
