@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Proyecto 1",
+        "link": "http://example.com/proyecto1",
+        "descripcion": "Descripción del Proyecto 1",
+        "img": "../Img/Fondo-de-encabezado2.jpg"
+    },
+    {
+        "nombre": "Proyecto 2",
+        "link": "http://example.com/proyecto2",
+        "descripcion": "Descripción del Proyecto 2",
+        "img": "../Img/Fondo-de-encabezado2.jpg"
+    },    
+    {
+        "nombre": "Proyecto 3",
+        "link": "http://example.com/proyecto2",
+        "descripcion": "Descripción del Proyecto 2",
+        "img": "../Img/Fondo-de-encabezado2.jpg"
+    },
+    {
+        "nombre": "Proyecto 4",
+        "link": "http://example.com/proyecto2",
+        "descripcion": "Descripción del Proyecto 2",
+        "img": "../Img/Fondo-de-encabezado2.jpg"
+    }        
+]

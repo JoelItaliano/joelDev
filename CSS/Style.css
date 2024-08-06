@@ -23,9 +23,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #FFFFFF; /* Línea debajo de la sección */
+    border-bottom: 1px solid #FFFFFF;
     padding-top: 5px;
-    padding-bottom: 10px; /* Espacio entre el contenido y la línea */    
+    padding-bottom: 10px; 
 }
 
 .encabezado h1 {
@@ -70,12 +70,69 @@ nav a {
 }
 
 .presentacion-descripcion {
-    padding: 0px 30px 0 30px;
+    padding: 0px 30px 10px 30px;
+}
+/*Cuerpo de la web*/
+main {
+    background-color: #FFf;
+    color: #353535;
+    display: grid;
+    grid-template-rows: auto auto; 
+    padding: 5px;    
+}
+ /*presentacion a proyectos*/
+.presentacion-proyecto {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5%;    
 }
 
-main {
-    padding: 2rem;
+.presentacion-proyecto h3 {
+    border-bottom: 2px solid #353535;
 }
+
+.presentacion-proyecto p {
+    padding-right: 10%;
+    text-align: justify;
+}
+
+/*seccion de proyectos*/
+.portafolio {
+    background-color: #fff;
+    color: #353535;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    height: 80vh; /* Ocupa toda la altura de la pantalla */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+}
+
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img-proyecto {
+    background-color: #353535;
+    height: 12rem;    
+    margin: 5px 0px;
+}
+
+.img-proyecto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta cómo se recorta la imagen */
+}
+
+.descripcion-proyecto p{
+   margin-top: 5px;   
+   padding-right: 10px;
+   text-align: justify; 
+}
+
 
 footer {    
     padding: 1rem;
